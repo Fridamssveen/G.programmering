@@ -1,0 +1,63 @@
+
+#nettsideboks{
+  border-spacing:
+}
+
+.body {
+  background-image: url("bakgrunn.jpg");
+  padding-left: 5em;
+  padding-right: 10em;
+}
+
+.menybar{
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+  }
+  li {
+    float: left;
+  }
+  li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover:not(.active) {
+    background-color: #ddd;
+  }
+  li a.active {
+    color: white;
+    background-color: #4CAF50;
+  }
+
+}
+
+#overskirft{
+  text-align: center;
+  color: white;
+
+
+}
+
+.flex-container{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 450px;
+  margin-bottom: 10px;
+  color: #7EABFF;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+  line-height: 200px;
+  font-size: 30px;
+}
